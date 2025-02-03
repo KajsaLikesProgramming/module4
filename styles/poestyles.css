@@ -1,0 +1,94 @@
+body {
+max-width: 70em;
+margin: 0 auto 0 auto;
+margin-top: 1em;
+margin-bottom: 1em;
+}
+
+table, th, td {
+border-collapse: collapse;
+border: 1px solid #000;
+padding: 1em;
+}
+
+.first {
+    display: inline-block;
+    max-width: 50%;
+}
+
+#image1 {
+    max-width: 40%;
+    float: inline-end;
+    margin-top: 7%;
+    border-radius: 50%;
+    border-style: ridge;
+    border-color: #98020e;
+    border-width: 1em;
+}
+
+#homepage1 {
+    background-color: rgb(209, 207, 211);
+    padding: 2%;
+    margin-bottom: 2em;
+}
+
+#edgarpoe {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+}
+
+p, td, th {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.allen {
+    color: #98020e;
+}
+
+.second {
+    display: inline;
+    max-width: 60%;
+    margin: 0%;
+    padding: 0%;
+    margin-bottom: 5%;
+}
+
+/* I was working on this module for many hours and found it incredibly difficult to place two <div>s next to each other.
+   Now there is a big awkward space at the end of the homepage (tried to use "display: inline-block;" but with no success. 
+   Had similar struggles placing the image next to the paragraphs, and luckily managed to do it somehow.*/
+
+.third {
+    max-width: 30%;
+    display: flex;
+}
+
+/*Once, I did manage to put the table and links next to each other, but then the links kept appearing higher
+  on the page than the table. Couldn't find any reason for it, the table had no margin above it either. In the end I found it
+   the best solution to just place the links and the table on separate lines. I feel a little disappointed with the end result.*/
+
+.readings {
+    text-align: left;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#homepage2 {
+    background-color: #efe9e9;
+    padding: 2%;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#telltale {
+    background-color: rgb(209, 207, 211);
+    padding: 2%;
+    margin-bottom: 2em;
+}
+
+#lenore {
+    background-color: rgb(209, 207, 211);
+    padding: 2%;
+    margin-bottom: 2em;
+}
